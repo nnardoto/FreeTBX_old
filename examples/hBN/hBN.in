@@ -1,0 +1,5 @@
+SystemName          hBN
+HFile               hamiltonian.dat
+SFile               overlap.dat
+
+BandCalc            ON
