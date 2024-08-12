@@ -1,12 +1,6 @@
-module FreeTBX
-  character(len = 20) :: SystemName 
+program FreeTBX
+  use TBModel
 
-contains
-
-    subroutine LoadSystem(InputFile)
-      use fdf
-      
-      fdf_init(InputFile, "log.txt")
-      SystemName = fdf_get("SystemName", "null")
-    end subroutine
-end module
+  ! Catch arguments from terminal and load system
+  call LoadSystem()
+end program

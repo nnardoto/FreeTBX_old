@@ -1,5 +1,5 @@
 SystemName          hBN
-HFile               hamiltonian.dat
-SFile               overlap.dat
+HFile               OMX/hamiltonian.dat
+SFile               OMX/overlap.dat
 
 BandCalc            ON
